@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<style>
+    .header{
+        background-image: linear-gradient(155deg, #4a212b 0% 33%, #b3f5be, #2a214a 66% 100%);
+    }
+    .inpt{
+        border: none;
+        background-color:  #2a214a;
+       border-bottom: 2px solid white;
+       
+    }
+    .inpt:hover{
+ background-color: #2a214a;
+ border: none;
+ outline: none;
+ border-bottom: 2px solid white;
+    }
+    .inpt:active{
+        background-color:  #2a214a;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid white;
+    
+    }
+    .inpt::placeholder{
+        color: white;
+      background-color:  #2a214a;
+    }
+    .btn2{
+        border: none;
+        border-radius: .5vw;
+        box-shadow: inset 0px 0px 20px 0px  #2a214a;
+    }
+    .btn:hover{
+        border: none;
+        border-radius: .5vw;
+        box-shadow: inset 0px 0px 20px 0px  #2a214a;
+    }
+  .infoForm{
+    background-color:  #2a214a;
+    color: #F5DEB3;
+    border-radius: 2vw
+  }
+  .h1{
+    font-family: cursive;
+    text-shadow: 10px 10px 10px  #2a214a;
+
+  }
+  .img{
+border-radius: 2vw;
+  }
+  .pe{
+    font-family: cursive;
+  }
+  .h1-red{
+    font-size: 2vw;
+  }
+  .four{
+    background-color: #F7F7F7;
+    padding: 3vw;
+  }
+  .fourun{
+    
+    background-color: white;
+     /* box-shadow: inset 0px 0px 20px 0px rgb(141, 134, 134); */
+     border: 1vw solid#F7F7F7 ;
+  }
+</style>
+<body>
+    <nav class="navbar header navbar-expand-lg navbar-light bg-light p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2 inpt text-light" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <!--  -->
+    <div class="container">
+        <div class="row mt-5">
+            <!--  -->
+            <div class="col-md-6">
+                <img style="width: 100%;" class="img" src="book-with-green-board-background.jpg" alt="">
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center h1">About Education</h1>
+                            <p class="pe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error accusantium ipsa nam minus, esse tenetur mollitia odit repellat architecto debitis vel fugiat sed iste ipsum ut nesciunt natus deleniti at asperiores assumenda! Laboriosam earum itaque, nam adipisci culpa, commodi cum, expedita assumenda ipsum at deserunt nulla quisquam fugit ducimus ea eligendi! Animi nam corrupti ipsum eius repellendus quis perferendis, eum assumenda consequuntur officia, distinctio blanditiis, explicabo autem iusto voluptatum dolorum! Obcaecati earum quibusdam alias ipsam mollitia numquam eveniet delectus. Qui repudiandae ad delectus eaque perferendis, laborum veniam voluptates sit aliquam minima ipsa excepturi laudantium explicabo aspernatur quibusdam. Autem, deserunt debitis?</p>
+                        </div>
+                    </div>
+                
+            </div>
+         
+            <!--  -->
+            <div class="col-md-6 box2 ">
+               <form class=" infoForm p-5 ">
+                <h1 class="text-center p-4 h1">F<u>orm Details</u></h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+<!--  -->
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp">
+</div>
+<!--  -->
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+<!--  -->
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <!--  -->
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3 mt-3">
+                            <button class="form-control btn2 mt-3" style="background-color: #F5DEB3;">Submit
+                                Information<z/button>
+
+                        </div>
+                    </div>
+                </div>
+               </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid four ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 fourun ">
+          <span style="border: 1px solid red;color: red;display: inline-block;margin-top: 2vw;">40% off</span>
+          <h1 class="text-center h1-red mt-5">Redmi Note 13 Pro+</h1>
+          <p class="text-center">From ₹30,999₹33,999</p>
+          <button style="height: 3vw;width:8vw;align-items: center;margin-left: 3vw;" type="button" class="btn btn-dark mt-3 "><a style="text-decoration: none; color: white;" href="index.html">buy now</a></button>
+          <button style="height: 3vw;width:8vw; border: 1px solid black; align-items: center;" type="button" class="btn btn-light mt-3 ">Light</button>
+          <img width="80% p-4" class="ms-4" src="phone1.webp" alt="">
+        </div>
+        <!--  -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 fourun ">
+          <span style="border: 1px solid red;color: red;display: inline-block;margin-top: 2vw;">40% off</span>
+          <h1 class="text-center h1-red mt-5">Redmi Note 13 Pro+</h1>
+          <p class="text-center">From ₹30,999₹33,999</p>
+          <button style="height: 3vw;width:8vw;align-items: center;margin-left: 3vw;" type="button" class="btn btn-dark mt-3 "><a style="text-decoration: none; color: white;" href="index.html">buy now</a></button>
+          <button style="height: 3vw;width:8vw; border: 1px solid black; align-items: center;" type="button" class="btn btn-light mt-3 ">Light</button>
+          <img width="80% " class="ms-4" src="phone1.webp" alt="">
+        </div>
+        <!--  -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 fourun ">
+          <span style="border: 1px solid red;color: red;display: inline-block;margin-top: 2vw;">40% off</span>
+          <h1 class="text-center h1-red mt-5">Redmi Note 13 Pro+</h1>
+          <p class="text-center">From ₹30,999₹33,999</p>
+          <button style="height: 3vw;width:8vw;align-items: center;margin-left: 3vw;" type="button" class="btn btn-dark mt-3 "><a style="text-decoration: none; color: white;" href="index.html">buy now</a></button>
+          <button style="height: 3vw;width:8vw; border: 1px solid black; align-items: center;" type="button" class="btn btn-light mt-3 ">Light</button>
+          <img width="80% " class="ms-4" src="phone1.webp" alt="">
+        </div>
+        <!--  -->
+        
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 fourun ">
+    <span style="border: 1px solid red;color: red;display: inline-block;margin-top: 2vw;">40% off</span>
+          <h1 class="text-center h1-red mt-5">Redmi Note 13 Pro+</h1>
+          <p class="text-center">From ₹30,999₹33,999</p>
+          <button style="height: 3vw;width:8vw;align-items: center;margin-left: 3vw;" type="button" class="btn btn-dark mt-3 "><a style="text-decoration: none; color: white;" href="index.html">buy now</a></button>
+          <button style="height: 3vw;width:8vw; border: 1px solid black; align-items: center;" type="button" class="btn btn-light mt-3 ">Light</button>
+          <img width="80% " class="ms-4" src="phone1.webp" alt="">
+        </div>
+        <!--  -->
+      </div>
+    </div>
+</body>
+</html>
